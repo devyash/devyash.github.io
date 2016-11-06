@@ -270,9 +270,10 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: .3em;
+  color: white;
 }
 .info h4, #header h4{
-  color: #999;
+  color: wheat;
 }
 /* Contact */
 .main-links{
