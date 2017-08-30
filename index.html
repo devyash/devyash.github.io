@@ -1,66 +1,395 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-	<title>Devyash Sanghai</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Devyash Sanghai's Portfolio</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Devyash Sanghai's Online Resume">
+    <meta name="author" content="Devyash Sanghai">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
 
-	<div id="container" class="container wrapper">
-		<ul id="scene" class="scene">
+    <header class="header">
+        <div class="top-bar container-fluid">
+            <div class="actions">
+                <a class="btn hidden-xs" href="mailto:devyashsanghai@gmail.com"><i class="fa fa-paper-plane" aria-hidden="true"></i> Contact Me</a>
+                <a class="btn" href="assets/devyashsanghai.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i> Download My Resume</a>
+            </div><!--//actions-->
+            <ul class="social list-inline">
+                <li><a href="https://www.linkedin.com/in/devyash/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/devyash" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+            </ul><!--//social-->
+        </div><!--//top-bar-->
 
-			<li class="layer" data-depth="0.20">
-				<div class="subway-car"></div>
-			</li>
+        <div class="intro">
+            <div class="container text-center">
+                <img class="profile-image" src="assets/images/devyashsanghai.png" alt="">
+                <h1 class="name">Devyash Sanghai</h1>
+                <div class="title">
+                  <p>Graduate Student - Computer Science </p>
+                  <p>University of Florida </p>
+                </div>
+                <div class="profile">
+                    <p>
+                      Hi, I am a Computer Science Gradute Student at University of Florida.
+                      I am currently working part time as a Full Stack Web Developer as The Research Computer Department at UF.
+                      I am proficient, knowledgeable and hard working individual.
+                      I hold a Bachelors Degree in Information Technology from University of Mumbai.
+                      My interest lie in Full Stack Web Development and Applications of Machine Learning.
+                     </p>
+                </div><!--//profile-->
+            </div><!--//container-->
+        </div><!--//intro-->
 
-			<li class="layer" data-depth="0.40">
-				<div class="primary-figure"></div>
-			</li>
+        <div class="contact-info">
+            <div class="container text-center">
+                <ul class="list-inline">
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:devyashsanghai@gmail.com">devyashsanghai@gmail.com</a></li>
+                    <li><i class="fa fa-phone"></i> <a href="tel: +19736875937">+1 (352) 284 5228</a></li>
+                    <li class="website"><i class="fa fa-github-alt"></i><a href="https://github.com/devyash" target="_blank">GitHub</a></li>
+                    <li class="website"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/devyash" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div><!--//container-->
+        </div><!--//contact-info-->
 
-			<li class="layer" data-depth="0.60">
-				<div class="primary-figure-book"></div>
-			</li>
+        <div class="page-nav-space-holder hidden-xs">
+            <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
+                <div class="container">
+                    <ul id="page-nav" class="nav page-nav list-inline">
+                        <li><a class="scrollto" href="#experiences-section">Experiences</a></li>
+                        <li><a class="scrollto" href="#education-section">Education</a></li>
+                        <li><a class="scrollto" href="#skills-section">Skills</a></li>
+                        <li><a class="scrollto" href="#portfolio-section">Projects</a></li>
+                        <li><a class="scrollto" href="#contact-section">Contact</a></li>
+                    </ul><!--//page-nav-->
+                </div>
+            </div><!--//page-nav-wrapper-->
+        </div>
 
-			<li class="layer" data-depth="0.90">
-				<img class="name" src="name.png">
-			</li>
+    </header><!--//header-->
 
-			<li class="layer" data-depth="0.80">
-				<div class="link">
-					<a href="https://www.linkedin.com/in/devyash/">
-						<img class="about" src="about.png">
-					</a>
+    <div class="wrapper container">
+        <section id="experiences-section" class="experiences-section section">
+            <h2 class="section-title">Work Experiences</h2>
+            <div class="timeline">
+              <div class="item">
+                <div class="work-place">
+                  <h3 class="place">CareDox Inc</h3>
+                  <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>New York, NY</div>
+                </div>
+                <div class="job-meta">
+                  <div class="title">SD Intern & Co-op</div>
+                  <div class="time">Data Analytics and Full Stack Developement</div>
+                  <div class="time">May 2017 - Present</div>
+                </div><!--//job-meta-->
+                <div class="job-desc">
+                  <p>
+                    Implemented multiple projects simultaneously as well as handled all the responsibilties they entailed.
+                    Developed an Analytics Dashboard that provides Insights regarding the performance of the company.
+                    Created and Implemented complex company knowledge points as a performance indicator for the company.
+                    Upgraded an old legacy app to latest technological stack. From Angular 1 to React(Front End), from Express to Koa, Node v 4.0 to v8.1.
+                    Integrated the current system with a Customer Sucess Platform (Totango) there by enchancing and streamlining the process.
+                  </p>
+                </div><!--//job-desc-->
+              </div><!--//item-->
 
-					<a href="https://github.com/devyash" target="_blank">
-						<img class="blog" src="blog.png">
-					</a>
+              <div class="item">
+                <div class="work-place">
+                  <h3 class="place">UF Research Computing Department</h3>
+                  <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Gainesville</div>
+                </div>
+                <div class="job-meta">
+                  <div class="title">Full Stack Developer</div>
+                  <div class="time">Oct 2016 - May 2017</div>
+                </div><!--//job-meta-->
+                <div class="job-desc">
+                  <p> Responsible for development of the full stack web application for the new compute server called as <b>HyperGator 2.0</b>.
+                    The application will be an intermediate layer between the researchers and the server to schedule jobs and automate various
+                    system administration tasks
+                     <br>Tech Stack:<b> Vue.Js, Node.Js, MySQL(Sequilize)</b></p>
+                </div><!--//job-desc-->
+              </div><!--//item-->
 
-					<a href="https://drive.google.com/file/d/0B2Y2YDfkwX5rd202bjQtT0lpS2s/view?usp=sharing" target="_blank">
-						<img class="resume" src="resume.png">
-					</a>
 
-				</div>
-			</li>
 
-		</ul>
-	</div>
+                <div class="item">
+                    <div class="work-place">
+                        <h3 class="place">Crimson Interative Pvt Ltd</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Mumbai</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">Software Developer Intern</div>
+                        <div class="time">Nov 2014 - Jan 2015</div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+                        <p>Developed REST ‘full modules for Authentication using Google O-Auth in Flask (python) which resolved login issues in the code base.
+</p>
+                    </div><!--//job-desc-->
+                </div><!--//item-->
 
-	<script src="parallax.js"></script>
-	<script>
-	var scene = document.getElementById('scene');
-	var parallax = new Parallax(scene);
-	</script>
-	<!-- hitwebcounter Code START -->
-<a href="http://www.hitwebcounter.com" target="_blank">
-<img src="http://hitwebcounter.com/counter/counter.php?page=6629727&style=0025&nbdigits=5&type=page&initCount=355" title="Home Remedies For Wrinkles" Alt="Home Remedies For Wrinkles"   border="0" >
-</a>                                        <br/>
-                                        <!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com" title="Count Stats Visits" 
-                                        target="_blank" style="font-family: Arial, Helvetica, sans-serif; 
-                                        font-size: 10px; color: #6E6A68; text-decoration: none ;"><em>Count Stats Visits                                        </em>
-                                        </a>   
-                            
+            </div><!--//timeline-->
+
+        </section><!--//section-->
+
+        <section id="education-section" class="education-section section">
+            <h2 class="section-title">Education</h2>
+            <div class="row">
+                <div class="item col-xs-12 col-sm-6">
+                    <div class="item-inner">
+                        <h3 class="degree">MS in Computer Science</h3>
+                        <div class="education-body">
+                            University of Florida
+                        </div><!--//education-body-->
+                        <div class="time">2016 - Present</div>
+                        <div class="desc">
+                            Being a graduate student at University of Florida, I have groomed myself as a Software Engineer working effectively to achieve my aim of developing improved and valuable services using my cutting-edge knowledge of programming languages and database.
+                        </div>
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item col-xs-12 col-sm-6">
+                    <div class="item-inner">
+                        <h3 class="degree">BE in Information Technology</h3>
+                        <div class="education-body">
+                            University of Mumbai
+                        </div><!--//education-body-->
+                        <div class="time">2012 - 2016</div>
+                        <div class="desc">
+                            An undergraduate degree gives enough acquaintance to me to understand the basics of various fields and an open platform to learn about possible opportunities in a particular subject. I had worked on various projects during my undergraduate studies, which have helped me to develop various skills like: Be highly organized and a good multi-tasker, be an effective communicator, be detail-oriented and most importantly recognize and solve problems quickly.
+                        </div>
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+
+
+            </div><!--//row-->
+        </section><!--//section-->
+
+
+        <section id="skills-section" class="skills-section section text-center">
+            <h2 class="section-title">Professional Skills</h2>
+            <div class="top-skills">
+                <h3 class="subtitle">Top Skills</h3>
+                <div class="row">
+                    <div class="item col-xs-12 col-sm-4">
+                        <div class="item-inner">
+                            <div class="chart-easy-pie text-center">
+                                <div class="chart-theme-1 chart" data-percent="92"><span>92</span>%</div>
+                            </div>
+                            <h4 class="skill-name">Java</h4>
+                            <div class="level">Expert, 6 years</div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-xs-12 col-sm-4">
+                        <div class="item-inner">
+                            <div class="chart-easy-pie text-center">
+                                <div class="chart-theme-1 chart" data-percent="80"><span>80</span>%</div>
+                            </div>
+                            <h4 class="skill-name">JavaScript</h4>
+                            <div class="level">Advanced, 5 years</div>
+
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-xs-12 col-sm-4">
+                        <div class="item-inner">
+                            <div class="chart-easy-pie text-center">
+                                <div class="chart-theme-1 chart" data-percent="90"><span>90</span>%</div>
+                            </div>
+                            <h4 class="skill-name">Python &amp; MySql</h4>
+                            <div class="level">Advanced, 4 years</div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                </div><!--//row-->
+            </div><!--//top-skills-->
+
+            <div class="other-skills">
+                <h3 class="subtitle">Other Skills</h3>
+                <div class="misc-skills">
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">GO Lang</span>
+                    <span class="skill-tag">Matlab</span>
+                    <span class="skill-tag">MySQL</span>
+                    <br>
+                    <span class="skill-tag">Vue.JS</span>
+                    <span class="skill-tag">React.JS</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Veux, Redux</span>
+                </div>
+            </div><!--//other-skills-->
+
+        </section><!--//skills-section-->
+
+
+        <section id="portfolio-section" class="portfolio-section section">
+            <h2 class="section-title">Projects</h2>
+<!-- TODO -->
+            <div class="items-wrapper isotope row">
+                <div class="item frontend col-md-3 col-xs-6 ">
+                    <div class="item-inner">
+                        <figure class="figure">
+                            <img class="img-responsive" src="assets/images/portfolio/policymaker.png" alt="" />
+                        </figure>
+                        <div class="content text-left">
+                            <h3 class="sub-title">Policy Maker.io</h3>
+                            <div class="meta">Vue.JS, Node.Js, SQL, JavaScript</div><br>
+                            <div class="action"><a href="https://github.com/devyash/policymaker.io" target="_blank">View on Github</a></div>
+                        </div><!--//content-->
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item backend col-md-3 col-xs-6 ">
+                    <div class="item-inner">
+                        <figure class="figure">
+                            <img class="img-responsive" src="assets/images/portfolio/bittorrent.png" alt="" />
+                        </figure>
+                        <div class="content text-left">
+                            <h3 class="sub-title">Bit Torrent Clone</h3>
+                            <div class="meta">Multi-Threading, Java</div><br>
+                            <div class="action"><a href="https://github.com/devyash/BitTorrentClone" target="_blank">View on Github</a></div>
+                        </div><!--//content-->
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item backend frontend col-md-3 col-xs-6 ">
+                    <div class="item-inner">
+                        <figure class="figure">
+                            <img class="img-responsive" src="assets/images/portfolio/donotlosehope.png" alt="" />
+                        </figure>
+                        <div class="content text-left">
+                            <h3 class="sub-title">Do not Lose Hope</h3>
+                            <div class="meta"> Machine Learning, Flask, Python</div><br>
+                            <div class="action"><a href="https://github.com/devyash/DontLooseHope" target="_blank">View on Github</a></div>
+                        </div><!--//content-->
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item frontend col-md-3 col-xs-6 ">
+                    <div class="item-inner">
+                        <figure class="figure">
+                            <img class="img-responsive" src="assets/images/portfolio/popularhashtag.png" alt="" />
+                        </figure>
+                        <div class="content text-left">
+                            <h3 class="sub-title">Popular Hash Tags</h3>
+                            <div class="meta">Fibonacci Heap, Java</div>
+                            <div class="action"><a href="https://github.com/devyash/Fibonacci-Heap" target="_blank" >View on Github</a></div>
+                        </div><!--//content-->
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item backend col-md-3 col-xs-6 ">
+                    <div class="item-inner">
+                        <figure class="figure">
+                            <img class="img-responsive" src="assets/images/portfolio/igps.png" alt="" />
+                        </figure>
+                        <div class="content text-left">
+                            <h3 class="sub-title">Intelligent Public Grievance System</h3>
+                            <div class="meta">Google Maps Api, Flask, Python</div><br>
+                            <div class="action"><a href="https://github.com/devyash/Intelligent-Public-Grievance-System" target="_blank" >View on Github</a></div>
+                        </div><!--//content-->
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item backend col-md-3 col-xs-6 ">
+                    <div class="item-inner">
+                        <figure class="figure">
+                            <img class="img-responsive" src="assets/images/portfolio/nueralnetworkforhandwritensetup.png" alt="" />
+                        </figure>
+                        <div class="content text-left">
+                            <h3 class="sub-title">Neural Network for Handwritten Data</h3>
+                            <div class="meta">Matlab</div>
+                            <div class="action"><a href="https://github.com/devyash/MachineLearning_Matlab" target="_blank">View on Github</a></div>
+                        </div><!--//content-->
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+
+                <div class="item frontend col-md-3 col-xs-6 ">
+                    <div class="item-inner">
+                        <figure class="figure">
+                            <img class="img-responsive" src="assets/images/portfolio/adaptivenoisefilter.png" alt="" />
+                        </figure>
+                        <div class="content text-left">
+                            <h3 class="sub-title">Adaptive Noise Cancellation using adaptive Filter(LMS)</h3>
+                            <div class="meta">Matlab</div>
+                            <div class="action"><a href="https://github.com/devyash/MachineLearning_Matlab" target="_blank" >View on Github</a></div>
+                          </div><!--//content-->
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+
+                <div class="item frontend backend col-md-3 col-xs-6 ">
+                    <div class="item-inner">
+                        <figure class="figure">
+                            <img class="img-responsive" src="assets/images/portfolio/speak.do.png" alt="" />
+                        </figure>
+                        <div class="content text-left">
+                            <h3 class="sub-title">Speak.Do</h3>
+                            <div class="meta">Python, Wit.ai, Swift</div>
+                            <div class="action"><a href="https://github.com/devyash/Speak.Do" target="_blank" >View on Github</a></div>
+                        </div><!--//content-->
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+
+            </div><!--//item-wrapper-->
+
+        </section><!--//section-->
+
+        <section id="contact-section" class="contact-section section">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="intro">
+                <img class="profile-image" src="assets/images/devyashsanghai.png" alt="">
+                <div class="dialog">
+                    <p>I'm currently looking for full time opportunities.
+                        My academic track records and the acknowledgment from my
+                        supervisors regarding my achievements will makes me an
+                         excellent candidate.</p>
+                    <p><strong>I can help with the following:</strong></p>
+                    <ul class="list-unstyled service-list">
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Software Engineering/Development</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Web Development</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Data Analysis</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Database development</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Machine Learning Models</li>
+                    </ul>
+                    <p>Drop me a line at <a href="mailto:devyashsanghai@gmail.com">devyashsanghai@gmail.com</a> or call me at <a href="tel:+13522845228">+1(352) 284 5228</a></p>
+                    <ul class="social list-inline">
+                        <li><a href="https://www.linkedin.com/in/devyash" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="https://github.com/devyash" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+                    </ul><!--//social-->
+                </div><!--//diaplog-->
+            </div><!--//intro-->
+
+        </section><!--//section-->
+
+    </div><!--//wrapper-->
+
+    <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->
+
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/isotope.pkgd.min.js"></script>
+
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <script src="assets/js/demo/style-switcher.js"></script>
 
 
 </body>
